@@ -1937,7 +1937,7 @@
 		font-family: 'Poppins', sans-serif;
 		font-weight: 600;
 		font-size: 30px;
-		color: #fff;
+		color: black;
 	}
 
 	.wsus__banner_text p {
@@ -2932,7 +2932,9 @@
 
 
 
-
+	/* .cta_list .cta{
+		padding: 100px 0px 25px 0px;
+	} */
 
 
 

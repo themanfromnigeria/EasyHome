@@ -511,7 +511,14 @@ button {
 }
 
 .cta_list{
-	padding: 100px 0px 25px 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 50px 0px 25px 0px;
+
+}
+
+.cta_list .cta{
+	padding: 25px 0px 25px 0px;
 
 }
 
@@ -1576,6 +1583,10 @@ FEATURED LISTING  END
 	padding: 70px 0px 100px 0px;
 }
 
+.cat_border{
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 .single_blog {
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	background: var(--colorWhite);
@@ -1752,6 +1763,7 @@ TESTIMONIAL PART START
 	margin-top: 20px;
 	position: relative;
 	line-height: 30px;
+	color: var(--colorBlack);
 }
 
 .wsus__single_clients .rating {
@@ -1766,6 +1778,58 @@ TESTIMONIAL PART START
 TESTIMONIAL PART END
 =====================*/
 
+/*===================
+HIRE PART END
+=====================*/
+.wsus__single_clients .c_det_steps {
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 15px;
+	color: var(--colorBlack);
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	font-weight: bold;
+}
+
+.wsus__single_clients .c_name_steps {
+	display: flex;
+	justify-content: center;
+	color: var(--colorPrimary);
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+
+
+.wsus__single_clients .descrption_steps {
+	margin-top: 20px;
+	position: relative;
+	line-height: 30px;
+	color: var(--colorBlack);
+}
+
+/*===================
+HIRE PART END
+=====================*/
+
+
+
+.form-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 56.25%;
+}
+
+.form-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
 
 /*===================
   FOOTER PART START

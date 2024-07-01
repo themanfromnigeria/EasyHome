@@ -500,7 +500,7 @@ button {
    BANNER PART START
 =====================*/
 #wsus__banner {
-	background: url(../images/hero.jpg) ;
+	background: url(../images/hero.png) ;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -533,7 +533,7 @@ button {
 .wsus__banner_text h1 {
 	font-weight: 700;
 	font-size: 64px;
-	color: var(--colorBlack);
+	color: var(--colorWhite);
 }
 
 .wsus__banner_text p {
